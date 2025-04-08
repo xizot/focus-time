@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer-section">
+      <div class="timer" id="timer">25:00</div>
+      <div class="timer-controls">
+        <button id="startTimer" class="btn primary">Start Focus</button>
+        <button id="resetTimer" class="btn secondary">Reset</button>
+      </div>
+    </div>
+    
+    <div class="settings-section">
+      <div class="toggle-group">
+        <label class="toggle">
+          <input type="checkbox" id="facebookToggle" checked>
+          <span class="slider"></span>
+          <span class="label">Block Facebook Feed</span>
+        </label>
+        
+        <label class="toggle">
+          <input type="checkbox" id="instagramToggle" checked>
+          <span class="slider"></span>
+          <span class="label">Block Instagram Feed</span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
